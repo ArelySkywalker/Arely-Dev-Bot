@@ -1,6 +1,7 @@
 # Dev Arely's Twitter Bot
 
 [![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 Twitter bot using Tweepy and Python.
 
