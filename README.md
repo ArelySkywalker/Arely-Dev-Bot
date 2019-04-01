@@ -1,5 +1,7 @@
 # Dev Arely's Twitter Bot
 
+[![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)](http://forthebadge.com)
+
 Twitter bot using Tweepy and Python.
 
 Tweepy is a Python library which provide access to Twitter API.
