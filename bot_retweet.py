@@ -32,4 +32,3 @@ for tweet in tweepy.Cursor(api.search, q='#WomenInTech&result_type=mixed').items
     
     except StopIteration:
         break
-
