@@ -11,4 +11,4 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 # Update status!
-api.update_status(status="This is my first tweet using python code!")
+api.update_status(status="Today's keyword is #GameJam. Happy Saturday!")
