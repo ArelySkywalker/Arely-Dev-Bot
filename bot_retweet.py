@@ -15,7 +15,7 @@ api = tweepy.API(auth)
 
 # q='#example', #example is the hashtach or keyword we want to search
 # items(n), n is the number of retweets we want to tweet
-for tweet in tweepy.Cursor(api.search, q='#WomenInTech').items(5):
+for tweet in tweepy.Cursor(api.search, q='#WomenInTech&result_type=mixed').items(5):
     try:
         print('\nRetweet Bot found tweet by @' + tweet.user.screen_name + '. ' + 'Attempting to retweet.')
         tweet.retweet()
